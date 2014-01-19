@@ -1,0 +1,20 @@
+<span style="padding-top: 100px;padding-left: 800px;padding-bottom: 50px; display: inline-block;">
+    <%= link_to 'Back to BrandSlip', home_path, :class => 'btn btn-primary' %> 
+  </span>
+
+<div style="float: left; margin-left: 20%" class="span8 pull-left">
+  <div class="row-fluid">
+    <!-- bids div -->
+    <div id="" class="pull-left span12">
+      <div class="well well-white">
+        <span style="padding: 10px" class="msg-title">
+          <% if current_user.user_type == 1 %>
+            Transaction History
+          <% elsif current_user.user_type == 2 %>
+            Transaction History
+          <% end %>              
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
